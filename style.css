@@ -1,0 +1,940 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif,Arial;
+    background-color: #fff;
+}
+#section-1{
+    background-image: url(img/cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+nav ul{
+    list-style: none;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    background-color: #255b5b;
+    height: 60px;
+    width: 100%;
+    box-shadow: 3px 2px 3px rgb(0, 0, 0.1);
+}
+nav.sticky{
+    background-color: #1489b3;
+}
+label.logo{
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+    padding: 0 80px;
+    font-weight: 800;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 15px;
+    padding: 7px 12px;
+    border-radius: 3px;
+    font-weight: 550;
+}
+nav a.active,a:hover{
+    background-color: #1489b3b5;
+    transition: .5s;
+}
+nav img{
+    width: 20px;
+}
+.checkbtn{
+    float: right;
+    line-height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.more-btn{
+    display: none;
+}
+#check{
+    display: none;
+}
+.logo span{
+    color: #963273;
+}
+.slogan{
+    margin: 35em 0 0 8em;
+}
+.slogan span{
+    color: #329695;
+    font-style: italic;
+}
+.slogan h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner{
+    text-align: center;
+    height: 20vh;
+    background-image: url(img/banner.jpeg);
+    line-height: 150px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+}
+.service{
+    text-align: center;
+    cursor: pointer;
+}
+.service p{
+    background-color: #329695;
+    border-radius: 15px;
+    padding: 5px;
+    width: 150px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.service .p2{
+    background-color: #963273;
+}
+.service .p3{
+    background-color: #39af62;
+}
+.service .p4{
+    background-color: #ab93ca;
+}
+.service img{
+    width: 200px;
+}
+#slider{
+    display: none;
+}
+/* section-3  */
+.section-3{
+    margin: 0 50px;
+}
+.banner-f{
+    text-align: center;
+    margin: 40px 0;
+}
+.banner-f h2{
+    font-weight: 900;
+    color: #196b6b;
+}
+.banner-f p{
+    font-weight: 700;
+    color: #1489b3;
+}
+.features-container{
+   display: flex; 
+   justify-content: space-between;
+   margin: 0 100px;
+}
+.rapper{
+    width: 192px;
+    /* border: 1px solid #255b5b; */
+    border-radius: 4px;
+    padding: 20px;
+}
+.s-products img{
+    width: 190px;
+}
+.rapper a{
+    text-decoration: none;
+    color: #255b5b;
+}
+.content p{
+    font-size: 13px;
+    font-weight: bolder;
+    color: #1489b3;
+    padding: 0 10px;
+}
+.pris{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.rate{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.rate img{
+    width: 15px;
+}
+.btn p{
+    display: inline-block;
+    text-align: left;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+.btn img{
+    width: 20px;
+    cursor: pointer;
+}
+.btn a:hover{
+    background-color: #b5afaf80;
+}
+.sp-banner{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.sp-banner h2{
+    font-weight: 900;
+    font-size: 30px;
+    color: #196b6b;
+}
+.sp-banner p{
+    font-weight: 600;
+    color: #b11a7c;
+}
+.partsides-banner{
+    text-align: center;
+}
+.partsides-banner p{
+    font-weight: 700;
+    color: #196b6b;
+}
+.partsides-banner button{
+    border: none;
+    background-color: #196b6b;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.partsides-banner a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+/* footer section 4 */
+footer{
+    background-color: #255b5b;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 0;
+    color: #fff;
+}
+footer h2{
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer .ext{
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 550;
+    color: #363333;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer .ext:hover{
+    color: #255b5b;
+    transition: 0.5s;
+}
+footer span{
+    font-weight: 550;
+    text-transform: uppercase;
+    color: #363333;
+}
+footer a{
+    text-decoration: none;
+    color: #255b5b;
+    font-weight: 550;
+    font-style: oblique;
+}
+footer a:hover{
+    color: #1489b3;
+    transition: 0.5s;
+}
+footer .owner{
+    font-weight: 550;
+    color: #000;
+    cursor: pointer;
+}
+footer .owner:hover{
+    color: #255b5b;
+    transition: 0.5s ease;
+}
+h3{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+h4{
+    padding: 10px;
+}
+footer p a{
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+footer a:hover,a.active{
+    color: #000;
+    background-color: #255b5b;
+}
+.socialm img{
+    width: 50px;
+    padding: 20px 20px;
+}
+.socialm p{
+    display: inline-block;
+}
+.contact{
+    margin-top: 20px;
+}
+.contact img{
+    width: 20px;
+}
+.copy-right{
+    border-top: 1px solid #363333;
+    color: #363333;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px 100px 0 100px;
+}
+.pontiac-firebird{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.image img{
+    width: 500px;
+}
+.description{
+    padding: 20px;
+}
+.description h4{
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.description p{
+    text-align: left;
+    line-height: 25px;
+}
+.list{
+    text-align: left;
+    margin: 20px 0;
+}
+.list b{
+    color: #363333;
+}
+.description button{
+    border: none;
+    margin-top: 25px;
+    display: block;
+}
+.description a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #255b5b;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+.description a:hover{
+    background-color: #1489b3;
+    color: #000;
+}
+.v-details{
+    margin-left: 30%;
+}
+.about p{
+    line-height: 25px;
+    margin: 0 2rem 0 2rem;
+}
+.contact{
+    margin: 20px;
+}
+.contact p{
+    padding-top: 20px;
+    cursor: pointer;
+}
+.contact h3{
+    font-size: 20px;
+}
+.cont{
+    line-height: 25px;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.feedback img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.review{
+    margin: 0 20rem;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}
+.feedback p{
+    padding-left: 40px;
+    font-style: italic;
+}
+.check-container{
+    margin: 0 2rem;
+}
+.checkout h2{
+    text-align: center;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.checkout p{
+    line-height: 30px;
+    margin:  0 2rem;
+}
+.massage p{
+    margin: 0 2rem;
+}
+.massage button{
+    background-color: transparent;
+    border: none;
+    margin: 1rem 2rem;
+}
+.massage a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #255b5b;
+    padding: 8px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.massage a:hover,:active{
+    color: #000;
+    background-color: #1489b3;
+    transition: .5s;
+}
+.whatsapp{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin: 1rem 0;
+}
+.whatsapp p{
+    font-size: 18px;
+}
+
+
+ @media only screen and (max-width:450px) {
+    
+    #section-1{
+        overflow: hidden;
+        background-image: url(img/s-cover.png);
+    }
+    label#logo{
+        font-size: 20px;
+        padding: 20px;
+    }
+    /* #slogan{
+        margin: 40em 0 0 2em;
+    }
+    .slogan h1{
+        font-size: 15px;
+    } */
+    /* section-3  */
+    #section-3{
+        overflow: hidden;
+        margin: 0 20px;
+    }
+    #features-container{
+        display: block;
+        justify-content: none;
+    }
+    #rapper{
+        width: 280px;
+        margin: 0;
+    }
+    #s-products{
+        width: 250px;
+        justify-content: center;
+        margin: 0;
+    }
+    #s-products #img{
+        width: 100%;
+    }
+    /* #s-products .shop{
+        width: 20px;
+    } */
+    #s-products img{
+        width: 10px;
+    }
+    #s-products p{
+        font-size: 10px;
+    }
+    #banner{
+        background: none;
+        color: #255b5b;
+    }
+    #navbar{
+        overflow: hidden;
+    }
+    .sidebar a{
+        font-size: 13px;
+    }
+    .pontiac-firebird{
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    .image img{
+        width: 350px;
+    }
+    footer h2{
+        font-size: 20px;
+    }
+    footer h3{
+        font-size: 14px;
+    }
+    footer h4{
+        font-size: 12px;
+    }
+    .socialm img{
+        width: 30px;
+        padding: 5px;
+    }
+    .socialm p a{
+        font-size: 11px;
+    }
+    .contact img{
+        width: 15px;
+    }
+    .contact a{
+        font-size: 10px;
+    }
+    .copy-right{
+        margin: 20px;
+    }
+    .copy-right p{
+        font-size: 10px;
+    }
+    /* section-10  */
+    #aboutproduct{
+        display: block;
+    }
+    #product-img img{
+        width: 100%;
+    }
+    #form p{
+        font-size: 19px;
+    }
+
+
+ }
+  @media only screen and (max-width:520px) {
+    label.logo{
+        font-size: 25px;
+    }
+    #slogan{
+        margin: 20em 0 0 1em;
+    }
+    #slogan h1{
+        font-size: 20px;
+    }
+    #s-products{
+        margin: 10px;
+    }
+    .image img{
+        width: 400px;
+    }
+    .con{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .con p{
+        font-size: 12px;
+    }
+    .feedback{
+        display: block;
+    }
+    .feedback img{
+        margin-left: 2rem;
+    }
+    .feedback p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .checkout h2{
+        font-size: 22px;
+        text-align: start;
+    }
+    .checkout p{
+        margin: 0;
+        font-size: 14px;
+    }
+    .massage{
+        display: block;
+    }
+    .massage p{
+        margin: 0;
+        font-size: 15px;
+    }
+    .massage a{
+        font-size: 12px;
+    }
+    .whatsapp p{
+        font-size: 15px;
+    }
+    .whatsapp{
+        margin: 0;
+    }
+    
+ }
+ 
+ @media screen and (max-width:900px) {
+    #section-1{
+        overflow: hidden;
+        background-image: url(img/s-cover.png);
+    }
+    label.logo{
+        font-size: 25px;
+        padding: 0 50px 0 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .sidebar img{
+        display: block;
+        margin: 2em 0 0 9.5em;
+        cursor: pointer;
+    }
+    ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #245858ec;
+        top: 60px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin:  50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    nav a:hover,a.active{
+        color: #000;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .banner{
+    background-image: none;
+    background-color: #255b5b82;
+    }
+    #banner{
+        font-size: 30px;
+    }
+    .slogan{
+        margin: 20em 0 0 8em;
+        font-size: 23px;
+    }
+    .slogan h1{
+        color: #329695;
+    }
+    #section-2{
+        overflow: hidden;
+    }
+    .container{
+        display: none;
+    }
+    #slider{
+        display: block;
+    }
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 15s slider infinite;
+    }
+    #slider figure img{
+        float: left;
+        width: 20%;
+    }
+    @keyframes slider {
+        0%{
+            left: 0%;
+        }
+        20%{
+            left: 0%;
+        }
+        25%{
+            left: -100%;
+        }
+        40%{
+            left: -100%;
+        }
+        45%{
+            left: -200%;
+        }
+        60%{
+            left: -200%;
+        }
+        65%{
+            left: -300%;
+        }
+        80%{
+            left: -300%;
+        }
+        85%{
+            left: -400%;
+        }
+        100%{
+            left: -400%;
+        }
+    }
+    
+    #section-3{
+        overflow: hidden;
+    }
+    #features-container{
+        display: inline-block;
+        margin: 0;
+    }
+    #rapper{
+        margin: 20px 5px;
+        width: 160px;
+    }
+    #img{
+        width: 150px;
+    }
+    .pontiac-firebird{
+        display: block;
+        text-align: center;
+    }
+    .section-5{
+        overflow: hidden;
+    }
+    .section-6{
+        overflow: hidden;
+    }
+    .section-7{
+        overflow: hidden;
+    }
+    .section-8{
+        overflow: hidden;
+    }
+    .review{
+        margin: 0 2rem;
+    }
+    #m-contn{
+        margin: 5em 10em;
+    }
+    #s-contn{
+        margin-left: 2em;
+    }
+    /* section10  */
+    #form{
+        margin: 0;
+    }
+    #aboutproduct{
+        margin: 0;
+    }
+    #form p{
+        margin: 40px 0 10px 0;
+    }
+    #submit{
+        width: 100%;
+        font-weight: 600;
+        background-color: #196b6b;
+        color: #fff;
+    }
+    
+} 
+/* sign in page */
+.section-9{
+    overflow: hidden;
+}    
+.m-contn{
+    margin: 10em 35em;
+    background-color: #255b5b;
+    padding: 5em;
+    height: 65vh;
+    border-radius: 8px;
+    color: #fff;
+}
+.s-contn{
+    margin-left: 5em;
+}
+.s-contn h2{
+    margin-bottom: 2rem;
+    font-size: 35px;
+    font-weight: 800;
+}
+.s-contn label{
+    font-size: 14px;
+}
+.s-contn input{
+    padding:  .5rem 3rem;
+    border: none; 
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.s-contn p{
+    font-size: 12px;
+}
+.s-contn span{
+    margin: .5rem;
+    display: flex;
+}
+.s-contn .s-btn{
+    padding: 5px;
+    margin: 4px;
+    background-color: #329695;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.s-btn:hover{
+    background-color: #3cb2b2;
+}
+/* section 10 about products  */
+.section-10{
+    margin: 30px;
+}
+.product-img img{
+    width: 50%;
+}
+.product-description p{
+    width: 100%;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+.ap-price{
+    font-weight: 700;
+    margin-top: 20px;
+}
+.product-description span{
+    color: #196b6b;
+    font-weight: 700;
+}
+.product-description button{
+    border: none;
+    background-color: #fff;
+    margin: 10px 0;
+}
+.product-description a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: #255b5b;
+    padding: 7px 10px;
+    border-radius: 3px
+}
+.aboutproduct{
+    display: flex;
+    margin: 0 20em;
+}
+form{
+    margin: 1em 5em;
+}
+form input{
+    width: 50%;
+    border: none;
+    height: 30px;
+    /* border-bottom: 1px solid #363333; */
+    outline: none;
+    display: block;
+}
+.submit{
+    border: none;
+    margin: 10px 0;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 2px;
+}
+form p{
+    font-size: 20px;
+    font-weight: 900;
+    color: #196b6b;
+}
+/* section 11 parts list  */
+.section-11{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.parts-banner h3{
+    font-size: 25px;
+    font-weight: 900;
+    padding: 10px 0;
+    color: #196b6b;
+}
+.parts span{
+    font-style: italic;
+    font-weight: 700;
+    color: #963273;
+    line-height: 2;
+    font-size: 14px;
+}
+.parts a{
+    text-decoration: none;
+    background-color: #1489b3;
+    color: #fff;
+    padding: 7px 5px;
+    border-radius: 5px;
+    line-height: 3;
+    font-size: 12px;
+    font-weight: 700;
+    width: 100%;
+}
+.parts-banner p{
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #1489b3;
+    font-size: 20px;
+}
+.parts-banner a{
+    text-decoration: none;
+    color: #196b6b;
+    text-transform: uppercase;
+    background-color: #196b6b;
+    line-height: 3;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+
+}
